@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/towerplus/static/css/main.dde2007a.css",
+    "main.js": "/towerplus/static/js/main.2bc56689.js",
+    "static/media/tower6.jpg": "/towerplus/static/media/tower6.32728c9adb4147883a32.jpg",
+    "static/media/tower2.jpg": "/towerplus/static/media/tower2.5777df4f7f84395a667a.jpg",
+    "static/media/tower1.jpg": "/towerplus/static/media/tower1.edc28a882d920b795499.jpg",
+    "static/media/tower3.jpg": "/towerplus/static/media/tower3.d1c15a0c31ce7cdd1e7a.jpg",
+    "static/media/tower4.jpg": "/towerplus/static/media/tower4.491ac338c727fb6e51d3.jpg",
+    "static/media/tower5.jpg": "/towerplus/static/media/tower5.1ff294f9c619947a281a.jpg",
+    "static/media/tower.png": "/towerplus/static/media/tower.431fbbacedfb64d1a235.png",
+    "static/media/taller.ttf": "/towerplus/static/media/taller.eab627981d4e00a0ab76.ttf",
+    "index.html": "/towerplus/index.html",
+    "main.dde2007a.css.map": "/towerplus/static/css/main.dde2007a.css.map",
+    "main.2bc56689.js.map": "/towerplus/static/js/main.2bc56689.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dde2007a.css",
+    "static/js/main.2bc56689.js"
+  ]
+}
