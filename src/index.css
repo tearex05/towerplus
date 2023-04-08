@@ -1,13 +1,95 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: taller;
+  src: url(./assets/taller.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: taller;
+  transition: all 0.5s ease;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #fed7aa, #ffedd5);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222; 
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.bgx{
+  background-color: #fed7aac7;
+}
+
+.borderx{
+  border-bottom: 5px solid #fb923c;
+}
+
+.textx{
+  font-size: 20rem;
+  line-height: 20rem;
+}
+
+.trackingx{
+  letter-spacing: 0.1em;
+}
+
+.trackingx:hover{
+  letter-spacing: 0.15em;
+}
+
+.bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hx{
+  height: 200%;
+}
+
+.span1{
+  animation: move 1.8s ease infinite;
+}
+
+.span2{
+  animation: move 1s ease infinite;
+}
+
+.span3{
+  animation: move 1.3s ease infinite;
+}
+
+.span4{
+  animation: move 1.6s ease infinite;
+}
+
+.span5{
+  animation: move 1.4s ease infinite;
+}
+
+@keyframes move{
+  0%{transform: translateY(0);}
+  50%{transform: translateY(10px);}
+  100%{transform: translateY(0);}
 }
